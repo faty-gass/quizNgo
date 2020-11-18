@@ -1,0 +1,146 @@
+@media (max-width: 576px) {
+  .scroll-zone {
+    height: calc(100vh - 320px);
+    overflow-y: scroll;
+  }
+  .search-parent {
+    background-color: rgb(231, 231, 231);
+  }
+  .search-parent div {
+    width: 100%;
+    text-align: center;
+  }
+  .home {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+.search-bar {
+  position: relative;
+}
+.search-bar input {
+  padding-left: 30px;
+}
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  z-index: 500;
+}
+
+.search-parent {
+  background-color: rgb(231, 231, 231);
+}
+
+.sticky-top {
+  z-index: 900 !important;
+}
+.w-100px {
+  width: 100px !important;
+}
+.w-75px {
+  width: 75px !important;
+}
+
+.scroll-zone {
+  height: calc(100vh - 330px);
+  overflow-y: scroll;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.card-header {
+  background-color: rgba(217, 218, 164, 0.445) !important ;
+  color: rgb(82, 82, 82);
+}
+.bg-theme {
+  background-color: rgb(201, 234, 241) !important ;
+}
+
+.table.b-table.b-table-stacked-md > tbody > tr > [data-label]::before,
+th,
+.text-theme,
+.text-theme,
+.text-theme:visited {
+  color: #17a2b8 !important ;
+}
+
+.text-theme:hover {
+  color: #126c7a !important ;
+  text-decoration: none;
+}
+
+.nav-pills .router-link-exact-active,
+.bg-dark-theme,
+.btn-primary {
+  background-color: rgb(36, 136, 123) !important;
+}
+
+.nav-item .nav-link {
+  font-size: 20px !important;
+}
+
+.nav-pills .nav-link {
+  font-size: large !important;
+}
+.nav-pills .router-link-exact-active {
+  color: #ffffff !important;
+  transition: all 0.25s;
+}
+.flag {
+  filter: drop-shadow(2px 3px 7px rgba(0, 0, 0, 0.37));
+}
+
+html,
+body {
+  background-color: #f8f9fa !important;
+  height: 100% !important;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+.h100 {
+  min-height: calc(100vh - 180px) !important;
+}
+
+.x-button {
+  width: 36px !important;
+}
+
+.currentUserRankCard {
+  background-color: rgb(228, 255, 215) !important;
+}
+
+.scrollToUserRank {
+  position: fixed;
+  left: 40px;
+  bottom: 60px;
+  color: green;
+  opacity: 25%;
+}
+
+.scrollToTop {
+  position: fixed;
+  right: 40px;
+  bottom: 60px;
+  color: orange;
+  opacity: 25%;
+}
+
+.card-inline {
+  width: 21rem !important;
+}
+
+.nav-footer {
+  margin-top: 50px !important;
+  color: whitesmoke;
+}
